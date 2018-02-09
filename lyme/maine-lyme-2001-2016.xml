@@ -1,0 +1,2742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+<!--
+<dataset
+    xmlns="http://developer.cognos.com/schemas/xmldata/1/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:schemaLocation="http://developer.cognos.com/schemas/xmldata/1/ xmldata.xsd"
+>
+-->
+    <metadata>
+          <item name="Location" type="xs:string" length="202"/>
+          <item name="Year" type="xs:string" length="22"/>
+          <item name="Sex" type="xs:string" length="16"/>
+          <item name="Age" type="xs:string" length="52"/>
+          <item name="Number" type="xs:string" length="22"/>
+          <item name="Population" type="xs:string" length="22"/>
+          <item name="RATE_NUM" type="xs:double" precision="2"/>
+          <item name="Rate" type="xs:string" length="22"/>
+    </metadata>
+    <data>
+        <row>
+            <value>Androscoggin</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>104260</value>
+            <value xs:nil="true" />
+            <value>    1.0</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>105063</value>
+            <value xs:nil="true" />
+            <value>    1.9</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>106140</value>
+            <value xs:nil="true" />
+            <value>    0.9</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>6</value>
+            <value>106867</value>
+            <value xs:nil="true" />
+            <value>    5.6</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>5</value>
+            <value>107352</value>
+            <value xs:nil="true" />
+            <value>    4.7</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>10</value>
+            <value>107932</value>
+            <value xs:nil="true" />
+            <value>    9.3</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>21</value>
+            <value>107739</value>
+            <value xs:nil="true" />
+            <value>   19.5</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>36</value>
+            <value>108284</value>
+            <value xs:nil="true" />
+            <value>   33.2</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>56</value>
+            <value>107830</value>
+            <value xs:nil="true" />
+            <value>   51.9</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>38</value>
+            <value>107661</value>
+            <value xs:nil="true" />
+            <value>   35.3</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>58</value>
+            <value>107353</value>
+            <value xs:nil="true" />
+            <value>   54.0</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>80</value>
+            <value>107506</value>
+            <value xs:nil="true" />
+            <value>   74.4</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>72</value>
+            <value>107391</value>
+            <value xs:nil="true" />
+            <value>   67.0</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>95</value>
+            <value>107440</value>
+            <value xs:nil="true" />
+            <value>   88.4</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>51</value>
+            <value>107233</value>
+            <value xs:nil="true" />
+            <value>   47.6</value>
+        </row>
+        <row>
+            <value>Androscoggin</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>92</value>
+            <value>107233</value>
+            <value xs:nil="true" />
+            <value>   85.8</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>72962</value>
+            <value xs:nil="true" />
+            <value>    1.4</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>72942</value>
+            <value xs:nil="true" />
+            <value>    1.4</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>4</value>
+            <value>72944</value>
+            <value xs:nil="true" />
+            <value>    5.5</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>72959</value>
+            <value xs:nil="true" />
+            <value>    2.7</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>72881</value>
+            <value xs:nil="true" />
+            <value>    2.7</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>72827</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>72711</value>
+            <value xs:nil="true" />
+            <value>    2.8</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>4</value>
+            <value>72542</value>
+            <value xs:nil="true" />
+            <value>    5.5</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>72258</value>
+            <value xs:nil="true" />
+            <value>    9.7</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>4</value>
+            <value>71704</value>
+            <value xs:nil="true" />
+            <value>    5.6</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>71330</value>
+            <value xs:nil="true" />
+            <value>    4.2</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>70744</value>
+            <value xs:nil="true" />
+            <value>    1.4</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>70039</value>
+            <value xs:nil="true" />
+            <value>    4.3</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>5</value>
+            <value>69447</value>
+            <value xs:nil="true" />
+            <value>    7.2</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>68628</value>
+            <value xs:nil="true" />
+            <value>    2.9</value>
+        </row>
+        <row>
+            <value>Aroostook</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>68628</value>
+            <value xs:nil="true" />
+            <value>    1.5</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>14</value>
+            <value>268391</value>
+            <value xs:nil="true" />
+            <value>    5.2</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>45</value>
+            <value>270533</value>
+            <value xs:nil="true" />
+            <value>   16.6</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>30</value>
+            <value>273041</value>
+            <value xs:nil="true" />
+            <value>   11.0</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>58</value>
+            <value>274920</value>
+            <value xs:nil="true" />
+            <value>   21.1</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>70</value>
+            <value>276275</value>
+            <value xs:nil="true" />
+            <value>   25.3</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>96</value>
+            <value>277084</value>
+            <value xs:nil="true" />
+            <value>   34.6</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>166</value>
+            <value>278781</value>
+            <value xs:nil="true" />
+            <value>   59.5</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>227</value>
+            <value>280681</value>
+            <value xs:nil="true" />
+            <value>   80.9</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>279</value>
+            <value>281969</value>
+            <value xs:nil="true" />
+            <value>   98.9</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>180</value>
+            <value>281390</value>
+            <value xs:nil="true" />
+            <value>   64.0</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>270</value>
+            <value>282651</value>
+            <value xs:nil="true" />
+            <value>   95.5</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>266</value>
+            <value>284050</value>
+            <value xs:nil="true" />
+            <value>   93.6</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>351</value>
+            <value>285866</value>
+            <value xs:nil="true" />
+            <value>  122.8</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>339</value>
+            <value>287797</value>
+            <value xs:nil="true" />
+            <value>  117.8</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>259</value>
+            <value>289977</value>
+            <value xs:nil="true" />
+            <value>   89.3</value>
+        </row>
+        <row>
+            <value>Cumberland</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>310</value>
+            <value>289977</value>
+            <value xs:nil="true" />
+            <value>  106.9</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>29631</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>30019</value>
+            <value xs:nil="true" />
+            <value>    6.7</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>30026</value>
+            <value xs:nil="true" />
+            <value>    6.7</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>30096</value>
+            <value xs:nil="true" />
+            <value>    6.6</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>30226</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>5</value>
+            <value>30528</value>
+            <value xs:nil="true" />
+            <value>   16.4</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>30596</value>
+            <value xs:nil="true" />
+            <value>    3.3</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>4</value>
+            <value>30652</value>
+            <value xs:nil="true" />
+            <value>   13.0</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>15</value>
+            <value>30779</value>
+            <value xs:nil="true" />
+            <value>   48.7</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>19</value>
+            <value>30704</value>
+            <value xs:nil="true" />
+            <value>   61.9</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>6</value>
+            <value>30701</value>
+            <value xs:nil="true" />
+            <value>   19.5</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>6</value>
+            <value>30627</value>
+            <value xs:nil="true" />
+            <value>   19.6</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>11</value>
+            <value>30519</value>
+            <value xs:nil="true" />
+            <value>   36.0</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>10</value>
+            <value>30296</value>
+            <value xs:nil="true" />
+            <value>   33.0</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>10</value>
+            <value>29991</value>
+            <value xs:nil="true" />
+            <value>   33.3</value>
+        </row>
+        <row>
+            <value>Franklin</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>29991</value>
+            <value xs:nil="true" />
+            <value>   10.0</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>52109</value>
+            <value xs:nil="true" />
+            <value>   13.4</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>5</value>
+            <value>52327</value>
+            <value xs:nil="true" />
+            <value>    9.6</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>53030</value>
+            <value xs:nil="true" />
+            <value>   13.2</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>4</value>
+            <value>53613</value>
+            <value xs:nil="true" />
+            <value>    7.5</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>53745</value>
+            <value xs:nil="true" />
+            <value>   13.0</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>6</value>
+            <value>54009</value>
+            <value xs:nil="true" />
+            <value>   11.1</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>14</value>
+            <value>54300</value>
+            <value xs:nil="true" />
+            <value>   25.8</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>13</value>
+            <value>54371</value>
+            <value xs:nil="true" />
+            <value>   23.9</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>34</value>
+            <value>54499</value>
+            <value xs:nil="true" />
+            <value>   62.4</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>28</value>
+            <value>54353</value>
+            <value xs:nil="true" />
+            <value>   51.5</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>43</value>
+            <value>54532</value>
+            <value xs:nil="true" />
+            <value>   78.9</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>59</value>
+            <value>54536</value>
+            <value xs:nil="true" />
+            <value>  108.2</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>100</value>
+            <value>54790</value>
+            <value xs:nil="true" />
+            <value>  182.5</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>121</value>
+            <value>54696</value>
+            <value xs:nil="true" />
+            <value>  221.2</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>122</value>
+            <value>54659</value>
+            <value xs:nil="true" />
+            <value>  223.2</value>
+        </row>
+        <row>
+            <value>Hancock</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>150</value>
+            <value>54659</value>
+            <value xs:nil="true" />
+            <value>  274.4</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>118024</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>118611</value>
+            <value xs:nil="true" />
+            <value>    5.9</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>119538</value>
+            <value xs:nil="true" />
+            <value>    0.8</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>8</value>
+            <value>120303</value>
+            <value xs:nil="true" />
+            <value>    6.6</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>11</value>
+            <value>120957</value>
+            <value xs:nil="true" />
+            <value>    9.1</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>22</value>
+            <value>121508</value>
+            <value xs:nil="true" />
+            <value>   18.1</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>46</value>
+            <value>121741</value>
+            <value xs:nil="true" />
+            <value>   37.8</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>113</value>
+            <value>122147</value>
+            <value xs:nil="true" />
+            <value>   92.5</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>99</value>
+            <value>122084</value>
+            <value xs:nil="true" />
+            <value>   81.1</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>88</value>
+            <value>122053</value>
+            <value xs:nil="true" />
+            <value>   72.1</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>129</value>
+            <value>121727</value>
+            <value xs:nil="true" />
+            <value>  106.0</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>127</value>
+            <value>121586</value>
+            <value xs:nil="true" />
+            <value>  104.5</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>183</value>
+            <value>121056</value>
+            <value xs:nil="true" />
+            <value>  151.2</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>139</value>
+            <value>121112</value>
+            <value xs:nil="true" />
+            <value>  114.8</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>154</value>
+            <value>119980</value>
+            <value xs:nil="true" />
+            <value>  128.4</value>
+        </row>
+        <row>
+            <value>Kennebec</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>204</value>
+            <value>119980</value>
+            <value xs:nil="true" />
+            <value>  170.0</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>39884</value>
+            <value xs:nil="true" />
+            <value>    2.5</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>40258</value>
+            <value xs:nil="true" />
+            <value>   17.4</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>11</value>
+            <value>40393</value>
+            <value xs:nil="true" />
+            <value>   27.2</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>12</value>
+            <value>40514</value>
+            <value xs:nil="true" />
+            <value>   29.6</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>17</value>
+            <value>40571</value>
+            <value xs:nil="true" />
+            <value>   41.9</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>17</value>
+            <value>40417</value>
+            <value xs:nil="true" />
+            <value>   42.1</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>21</value>
+            <value>40297</value>
+            <value xs:nil="true" />
+            <value>   52.1</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>73</value>
+            <value>40225</value>
+            <value xs:nil="true" />
+            <value>  181.5</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>70</value>
+            <value>39924</value>
+            <value xs:nil="true" />
+            <value>  175.3</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>65</value>
+            <value>39707</value>
+            <value xs:nil="true" />
+            <value>  163.7</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>102</value>
+            <value>39684</value>
+            <value xs:nil="true" />
+            <value>  257.0</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>109</value>
+            <value>39608</value>
+            <value xs:nil="true" />
+            <value>  275.2</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>95</value>
+            <value>39588</value>
+            <value xs:nil="true" />
+            <value>  240.0</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>106</value>
+            <value>39676</value>
+            <value xs:nil="true" />
+            <value>  267.2</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>121</value>
+            <value>39855</value>
+            <value xs:nil="true" />
+            <value>  303.6</value>
+        </row>
+        <row>
+            <value>Knox</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>102</value>
+            <value>39855</value>
+            <value xs:nil="true" />
+            <value>  255.9</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>33968</value>
+            <value xs:nil="true" />
+            <value>    5.9</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>14</value>
+            <value>34206</value>
+            <value xs:nil="true" />
+            <value>   40.9</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>34495</value>
+            <value xs:nil="true" />
+            <value>   20.3</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>34827</value>
+            <value xs:nil="true" />
+            <value>   20.1</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>17</value>
+            <value>34864</value>
+            <value xs:nil="true" />
+            <value>   48.8</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>19</value>
+            <value>34904</value>
+            <value xs:nil="true" />
+            <value>   54.4</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>26</value>
+            <value>34899</value>
+            <value xs:nil="true" />
+            <value>   74.5</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>40</value>
+            <value>34768</value>
+            <value xs:nil="true" />
+            <value>  115.0</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>45</value>
+            <value>34627</value>
+            <value xs:nil="true" />
+            <value>  130.0</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>38</value>
+            <value>34382</value>
+            <value xs:nil="true" />
+            <value>  110.5</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>56</value>
+            <value>34269</value>
+            <value xs:nil="true" />
+            <value>  163.4</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>65</value>
+            <value>34195</value>
+            <value xs:nil="true" />
+            <value>  190.1</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>71</value>
+            <value>34170</value>
+            <value xs:nil="true" />
+            <value>  207.8</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>83</value>
+            <value>34170</value>
+            <value xs:nil="true" />
+            <value>  242.9</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>74</value>
+            <value>33969</value>
+            <value xs:nil="true" />
+            <value>  217.8</value>
+        </row>
+        <row>
+            <value>Lincoln</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>98</value>
+            <value>33969</value>
+            <value xs:nil="true" />
+            <value>  288.5</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>55157</value>
+            <value xs:nil="true" />
+            <value>    3.6</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>55843</value>
+            <value xs:nil="true" />
+            <value>    3.6</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>5</value>
+            <value>56206</value>
+            <value xs:nil="true" />
+            <value>    8.9</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>56763</value>
+            <value xs:nil="true" />
+            <value>    5.3</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>57235</value>
+            <value xs:nil="true" />
+            <value>    3.5</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>57556</value>
+            <value xs:nil="true" />
+            <value>    1.7</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>6</value>
+            <value>57966</value>
+            <value xs:nil="true" />
+            <value>   10.4</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>21</value>
+            <value>58138</value>
+            <value xs:nil="true" />
+            <value>   36.1</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>15</value>
+            <value>57923</value>
+            <value xs:nil="true" />
+            <value>   25.9</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>15</value>
+            <value>57785</value>
+            <value xs:nil="true" />
+            <value>   26.0</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>28</value>
+            <value>57778</value>
+            <value xs:nil="true" />
+            <value>   48.5</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>24</value>
+            <value>57496</value>
+            <value xs:nil="true" />
+            <value>   41.7</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>50</value>
+            <value>57290</value>
+            <value xs:nil="true" />
+            <value>   87.3</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>43</value>
+            <value>57238</value>
+            <value xs:nil="true" />
+            <value>   75.1</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>26</value>
+            <value>57202</value>
+            <value xs:nil="true" />
+            <value>   45.5</value>
+        </row>
+        <row>
+            <value>Oxford</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>43</value>
+            <value>57202</value>
+            <value xs:nil="true" />
+            <value>   75.2</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>5</value>
+            <value>146110</value>
+            <value xs:nil="true" />
+            <value>    3.4</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>10</value>
+            <value>147298</value>
+            <value xs:nil="true" />
+            <value>    6.8</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>148759</value>
+            <value xs:nil="true" />
+            <value>    1.3</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>148814</value>
+            <value xs:nil="true" />
+            <value>    2.0</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>5</value>
+            <value>149726</value>
+            <value xs:nil="true" />
+            <value>    3.3</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>5</value>
+            <value>151446</value>
+            <value xs:nil="true" />
+            <value>    3.3</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>152232</value>
+            <value xs:nil="true" />
+            <value>    4.6</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>13</value>
+            <value>153372</value>
+            <value xs:nil="true" />
+            <value>    8.5</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>8</value>
+            <value>153770</value>
+            <value xs:nil="true" />
+            <value>    5.2</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>11</value>
+            <value>153831</value>
+            <value xs:nil="true" />
+            <value>    7.2</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>11</value>
+            <value>153799</value>
+            <value xs:nil="true" />
+            <value>    7.2</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>20</value>
+            <value>153612</value>
+            <value xs:nil="true" />
+            <value>   13.0</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>38</value>
+            <value>153479</value>
+            <value xs:nil="true" />
+            <value>   24.8</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>50</value>
+            <value>153414</value>
+            <value xs:nil="true" />
+            <value>   32.6</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>51</value>
+            <value>152692</value>
+            <value xs:nil="true" />
+            <value>   33.4</value>
+        </row>
+        <row>
+            <value>Penobscot</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>90</value>
+            <value>152692</value>
+            <value xs:nil="true" />
+            <value>   58.9</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>17203</value>
+            <value xs:nil="true" />
+            <value>    5.8</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>17269</value>
+            <value xs:nil="true" />
+            <value>    5.8</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>17433</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>17493</value>
+            <value xs:nil="true" />
+            <value>    5.7</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>17614</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>17597</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>17660</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>17534</value>
+            <value xs:nil="true" />
+            <value>    5.7</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>17433</value>
+            <value xs:nil="true" />
+            <value>   11.5</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>17540</value>
+            <value xs:nil="true" />
+            <value>    5.7</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>6</value>
+            <value>17353</value>
+            <value xs:nil="true" />
+            <value>   34.6</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>17260</value>
+            <value xs:nil="true" />
+            <value>    5.8</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>17176</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>17026</value>
+            <value xs:nil="true" />
+            <value>   11.7</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>16931</value>
+            <value xs:nil="true" />
+            <value>    5.9</value>
+        </row>
+        <row>
+            <value>Piscataquis</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>16931</value>
+            <value xs:nil="true" />
+            <value>   17.7</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>35323</value>
+            <value xs:nil="true" />
+            <value>    5.7</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>35545</value>
+            <value xs:nil="true" />
+            <value>    8.4</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>4</value>
+            <value>35966</value>
+            <value xs:nil="true" />
+            <value>   11.1</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>9</value>
+            <value>36100</value>
+            <value xs:nil="true" />
+            <value>   24.9</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>8</value>
+            <value>35813</value>
+            <value xs:nil="true" />
+            <value>   22.3</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>13</value>
+            <value>35895</value>
+            <value xs:nil="true" />
+            <value>   36.2</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>33</value>
+            <value>35890</value>
+            <value xs:nil="true" />
+            <value>   91.9</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>41</value>
+            <value>35860</value>
+            <value xs:nil="true" />
+            <value>  114.3</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>51</value>
+            <value>35567</value>
+            <value xs:nil="true" />
+            <value>  143.4</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>45</value>
+            <value>35221</value>
+            <value xs:nil="true" />
+            <value>  127.8</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>48</value>
+            <value>35097</value>
+            <value xs:nil="true" />
+            <value>  136.8</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>60</value>
+            <value>35114</value>
+            <value xs:nil="true" />
+            <value>  170.9</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>55</value>
+            <value>35034</value>
+            <value xs:nil="true" />
+            <value>  157.0</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>65</value>
+            <value>35045</value>
+            <value xs:nil="true" />
+            <value>  185.5</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>49</value>
+            <value>35149</value>
+            <value xs:nil="true" />
+            <value>  139.4</value>
+        </row>
+        <row>
+            <value>Sagadahoc</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>91</value>
+            <value>35149</value>
+            <value xs:nil="true" />
+            <value>  258.9</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>50871</value>
+            <value xs:nil="true" />
+            <value>    2.0</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>51017</value>
+            <value xs:nil="true" />
+            <value>    5.9</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>51336</value>
+            <value xs:nil="true" />
+            <value>    3.9</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>51328</value>
+            <value xs:nil="true" />
+            <value>   13.6</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>51600</value>
+            <value xs:nil="true" />
+            <value>    1.9</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>52195</value>
+            <value xs:nil="true" />
+            <value>    5.7</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>52459</value>
+            <value xs:nil="true" />
+            <value>    5.7</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>9</value>
+            <value>52316</value>
+            <value xs:nil="true" />
+            <value>   17.2</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>6</value>
+            <value>52104</value>
+            <value xs:nil="true" />
+            <value>   11.5</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>52227</value>
+            <value xs:nil="true" />
+            <value>   13.4</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>10</value>
+            <value>51909</value>
+            <value xs:nil="true" />
+            <value>   19.3</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>12</value>
+            <value>51829</value>
+            <value xs:nil="true" />
+            <value>   23.2</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>32</value>
+            <value>51680</value>
+            <value xs:nil="true" />
+            <value>   61.9</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>17</value>
+            <value>51163</value>
+            <value xs:nil="true" />
+            <value>   33.2</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>28</value>
+            <value>51113</value>
+            <value xs:nil="true" />
+            <value>   54.8</value>
+        </row>
+        <row>
+            <value>Somerset</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>21</value>
+            <value>51113</value>
+            <value xs:nil="true" />
+            <value>   41.1</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>37039</value>
+            <value xs:nil="true" />
+            <value>    5.4</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>37584</value>
+            <value xs:nil="true" />
+            <value>    2.7</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>37952</value>
+            <value xs:nil="true" />
+            <value>    5.3</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>38209</value>
+            <value xs:nil="true" />
+            <value>    5.2</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>38410</value>
+            <value xs:nil="true" />
+            <value>    2.6</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>8</value>
+            <value>38763</value>
+            <value xs:nil="true" />
+            <value>   20.6</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>12</value>
+            <value>38751</value>
+            <value xs:nil="true" />
+            <value>   31.0</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>19</value>
+            <value>38680</value>
+            <value xs:nil="true" />
+            <value>   49.1</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>19</value>
+            <value>38706</value>
+            <value xs:nil="true" />
+            <value>   49.1</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>26</value>
+            <value>38797</value>
+            <value xs:nil="true" />
+            <value>   67.0</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>26</value>
+            <value>38806</value>
+            <value xs:nil="true" />
+            <value>   67.0</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>55</value>
+            <value>38889</value>
+            <value xs:nil="true" />
+            <value>  141.4</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>89</value>
+            <value>38975</value>
+            <value xs:nil="true" />
+            <value>  228.4</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>49</value>
+            <value>39051</value>
+            <value xs:nil="true" />
+            <value>  125.5</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>63</value>
+            <value>39155</value>
+            <value xs:nil="true" />
+            <value>  160.9</value>
+        </row>
+        <row>
+            <value>Waldo</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>72</value>
+            <value>39155</value>
+            <value xs:nil="true" />
+            <value>  183.9</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>33499</value>
+            <value xs:nil="true" />
+            <value>    3.0</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>2</value>
+            <value>33345</value>
+            <value xs:nil="true" />
+            <value>    6.0</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>33403</value>
+            <value xs:nil="true" />
+            <value>    9.0</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1</value>
+            <value>33474</value>
+            <value xs:nil="true" />
+            <value>    3.0</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>33319</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>33323</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>0</value>
+            <value>33424</value>
+            <value xs:nil="true" />
+            <value>    0.0</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>3</value>
+            <value>33289</value>
+            <value xs:nil="true" />
+            <value>    9.0</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>4</value>
+            <value>32925</value>
+            <value xs:nil="true" />
+            <value>   12.1</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>8</value>
+            <value>32810</value>
+            <value xs:nil="true" />
+            <value>   24.4</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>13</value>
+            <value>32694</value>
+            <value xs:nil="true" />
+            <value>   39.8</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>7</value>
+            <value>32485</value>
+            <value xs:nil="true" />
+            <value>   21.5</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>13</value>
+            <value>32186</value>
+            <value xs:nil="true" />
+            <value>   40.4</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>14</value>
+            <value>31808</value>
+            <value xs:nil="true" />
+            <value>   44.0</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>20</value>
+            <value>31625</value>
+            <value xs:nil="true" />
+            <value>   63.2</value>
+        </row>
+        <row>
+            <value>Washington</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>20</value>
+            <value>31625</value>
+            <value xs:nil="true" />
+            <value>   63.2</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>68</value>
+            <value>191261</value>
+            <value xs:nil="true" />
+            <value>   35.6</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>112</value>
+            <value>194100</value>
+            <value xs:nil="true" />
+            <value>   57.7</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>94</value>
+            <value>195851</value>
+            <value xs:nil="true" />
+            <value>   48.0</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>99</value>
+            <value>197408</value>
+            <value xs:nil="true" />
+            <value>   50.1</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>99</value>
+            <value>198199</value>
+            <value xs:nil="true" />
+            <value>   49.9</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>133</value>
+            <value>197635</value>
+            <value xs:nil="true" />
+            <value>   67.3</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>172</value>
+            <value>197594</value>
+            <value xs:nil="true" />
+            <value>   87.0</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>292</value>
+            <value>197650</value>
+            <value xs:nil="true" />
+            <value>  147.7</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>266</value>
+            <value>197192</value>
+            <value xs:nil="true" />
+            <value>  134.9</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>179</value>
+            <value>197196</value>
+            <value xs:nil="true" />
+            <value>   90.8</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>203</value>
+            <value>198247</value>
+            <value xs:nil="true" />
+            <value>  102.4</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>221</value>
+            <value>199055</value>
+            <value xs:nil="true" />
+            <value>  111.0</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>221</value>
+            <value>199463</value>
+            <value xs:nil="true" />
+            <value>  110.8</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>272</value>
+            <value>200710</value>
+            <value xs:nil="true" />
+            <value>  135.5</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>184</value>
+            <value>201169</value>
+            <value xs:nil="true" />
+            <value>   91.5</value>
+        </row>
+        <row>
+            <value>York</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>188</value>
+            <value>201169</value>
+            <value xs:nil="true" />
+            <value>   93.5</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2001</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>108</value>
+            <value>1285692</value>
+            <value xs:nil="true" />
+            <value>    8.4</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2002</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>217</value>
+            <value>1295960</value>
+            <value xs:nil="true" />
+            <value>   16.7</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2003</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>175</value>
+            <value>1306513</value>
+            <value xs:nil="true" />
+            <value>   13.4</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2004</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>224</value>
+            <value>1313688</value>
+            <value xs:nil="true" />
+            <value>   17.1</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2005</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>245</value>
+            <value>1318787</value>
+            <value xs:nil="true" />
+            <value>   18.6</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2006</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>338</value>
+            <value>1323619</value>
+            <value xs:nil="true" />
+            <value>   25.5</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2007</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>530</value>
+            <value>1327040</value>
+            <value xs:nil="true" />
+            <value>   39.9</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2008</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>909</value>
+            <value>1330509</value>
+            <value xs:nil="true" />
+            <value>   68.3</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2009</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>976</value>
+            <value>1329590</value>
+            <value xs:nil="true" />
+            <value>   73.4</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2010</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>752</value>
+            <value>1327361</value>
+            <value xs:nil="true" />
+            <value>   56.7</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2011</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1012</value>
+            <value>1327930</value>
+            <value xs:nil="true" />
+            <value>   76.2</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2012</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1113</value>
+            <value>1328592</value>
+            <value xs:nil="true" />
+            <value>   83.8</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2013</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1384</value>
+            <value>1328702</value>
+            <value xs:nil="true" />
+            <value>  104.2</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2014</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1410</value>
+            <value>1330089</value>
+            <value xs:nil="true" />
+            <value>  106.0</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2015</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1215</value>
+            <value>1329328</value>
+            <value xs:nil="true" />
+            <value>   91.4</value>
+        </row>
+        <row>
+            <value>Maine</value>
+            <value>2016</value>
+            <value>Both</value>
+            <value>All Ages</value>
+            <value>1488</value>
+            <value>1329328</value>
+            <value xs:nil="true" />
+            <value>  111.9</value>
+        </row>
+    </data>
+</dataset>
